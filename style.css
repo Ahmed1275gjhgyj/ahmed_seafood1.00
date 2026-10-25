@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@700&family=Tilt+Neon:XROT@45&display=swap');
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* الصفحه الاولى  */
+header {
+    background-color:rgb(199, 156, 92);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+.logo {
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.navigation a {
+    color: rgb(95, 60, 8);
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 700;
+    padding-left: 50px;
+}
+
+.navigation a:hover {
+    color: rgb(58, 126, 214);
+}
+section{
+padding: 200px 250px;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background :url(imag/2.JPG)no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#main h2{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 700;
+}
+#main h2 span{
+    color: rgb(252, 249, 249);
+    font-size: 3em;
+    font-weight: 900;
+     display: inline-block;
+}
+.main-btn,
+#Menu .btn,
+#contact .btn{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    background-color: rgb(76, 76, 184);
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    padding-top: 20px;
+}
+.main-btn:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+#Menu .btn:hover{
+      background-color: blue;
+    transform: scale(1.1);
+}
+#contact .btn:hover{
+      background-color: #b39149;
+    transform: scale(1.1); 
+    border-radius: 40%;
+}
+.social-icon a{
+    color: rgb(255, 255, 255);
+    font-size: 2.7em;
+    padding-right: 25px;
+}
+.social-icon a:hover {
+     color: red;
+}
+/* الصفحه التانيه  */
+.container{
+    max-width: 1800px;
+    margin: auto;
+}
+#about{
+ background :url(imag/5.JPG)no-repeat ;    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#about .title{
+    text-align: center;
+    margin-bottom: 4em;
+}
+#about h2,
+#Menu h2{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+#about .title p ,
+#Menu .title p{
+    font-size: 30px;
+    color: #666565;
+    font-weight: 600;
+    font-family: inherit;
+}
+#about .about-content{
+    display: flex;
+    justify-content: space-between;
+}
+#about .about-content p{
+    color: #000000;
+    margin-right: 100px;
+    font-weight: 10;
+    line-height: 2;
+    font-size: 30px;
+    padding-right: 10;
+}
+#about span{
+    color: red;
+    font-size: larger;
+}
+.btn-secondary{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    background-color: rgb(76, 76, 184);
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.btn-secondary:hover{
+     background-color: blue;
+    transform: scale(1.1);
+}
+#offers{
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    background-color: #2f2e3ade;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#offers h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: yellow;
+}
+#offers .title p{
+      font-size: 30px;
+    color: #666565;
+    font-weight: 600;
+    font-family: inherit;
+}
+#offers .offer-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#offers .offer-items img{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 70px;
+}
+#offers .offer-items h3{
+    font-size: 25px;
+    margin: 15px 0;
+      padding-left: 90px  ;
+}
+#offers .offer-items p{
+    font-size: 19px;
+    padding-left: 90px  ;
+    font-weight: 400;
+    line-height: 1.2rem;
+    padding-bottom: 20px;
+}
+#offers .offer-items span{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+#offers .primary-text{
+    color: yellow;
+}
+#Menu{
+    background: #c2bebe;
+ padding: 7rem 0;
+}
+#Menu .title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#Menu .title p{
+    font-size: 30px;
+}
+#Menu .menu-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Menu .menu-items .menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 10px;
+
+}
+#Menu .menu-items .menu-item img{
+    width: 80px;
+    border-radius: 30%;
+    margin-right: 20px;
+}
+#Menu .menu-items .menu-item h3{
+    color: #272727;
+    border-bottom: 1px  dashed #574242;
+    padding-bottom: 6px;
+    padding: relative;
+    font-size: 20px;
+}
+#Menu .menu-items .menu-item span{
+    color: green;
+    padding-left: 8px;
+     font-size: 20px;
+    font-weight: 600;
+}
+#Menu .menu-items .menu-item p{
+    margin-top: 10px;
+}
+#Menu .btn{
+     color: #f4f4f4;
+    margin: auto;
+    display: block;
+}
+#Menu .btn a{
+    text-decoration: none;
+    color: white;
+}
+#gallery{
+background: url(./imag/IMG_4286.JPG);
+ padding: 8rem 0 6rem;
+}
+ #gallery h2{
+    color: yellow;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#gallery .img-gallery img{
+    width: 450px;
+    height: 300px;
+    border-radius: 60px;
+    margin: 40px ;
+    padding-left: 40px;
+}
+#contact{
+    padding: 7rem 0;
+    background: #f4f4f4;
+
+}
+
+#contact .container{
+    max-width: 1200px;
+}
+#contact .contact-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact .contact-content .contact-info{
+    width: 50%;
+}
+#contact .contact-content .contact-info div{
+    margin: 70px 0;
+    line-height: 1.7;
+}
+#contact .contact-content .contact-info h3{
+    font-size: 28px;
+    color: #383848;
+    margin-bottom: 10px;
+}
+#contact .contact-content .contact-info p{
+    color: #9a9a9a;
+}
+#contact .contact-content .contact-info i{
+    color: #ebca83;
+    margin-right: 5px;
+}
+#contact .contact-content .contact-info a i{
+  
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 40px;
+}
+#contact .contact-content .contact-info a i:hover{
+    color: red;
+}
+form{
+    width: 50%;
+}
+form input,textarea{
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border:none ;
+    background-color:#ebca83;
+}
